@@ -3,3 +3,4 @@ h1
     color:indigo; font-size:69px
     font-family: "Comic Sans MS", cursive, sans-serif
   }
+body { width: 960px; margin: 0 auto; }

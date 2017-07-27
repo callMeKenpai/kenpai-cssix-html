@@ -1,4 +1,4 @@
-function checkout(item1, item2, coupon)
+/*function checkout(item1, item2, coupon)
 {
   var subtotal = item1 + item2;
   var couponValue = subtotal * coupon;
@@ -24,3 +24,24 @@ function helloFunction(name)
     console.log('Hello ' + name + '!');
   }
 }
+
+helloFunction("Bob");
+
+var test = jQuery('.cursive-paragraph')
+test.text("THIS IS MUY SWOMP!")
+*/
+
+function myGreeting()
+{
+  var userName = $('#username').val();
+  console.log(userName);
+}
+
+function setup()
+{
+  console.log('page is ready');
+  $('#submitButton').click(myGreeting);
+  $('h1').text("Welcome, " + userName);
+}
+
+$(document).ready(setup);
